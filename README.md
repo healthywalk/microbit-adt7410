@@ -6,9 +6,10 @@
 ### ``current temperature``
 
 ``current temperature`` はI2C接続されたADT7410を使った現在温度を得ます。
+I2Cアドレスを渡す必要がありますが，0を渡すとデフォルトの72になります。
 
 ```blocks
-basic.showNumber(ADT7410.measureTemperature())
+basic.showNumber(ADT7410.measureTemperature(72))
 basic.pause(500)
 ```
 
