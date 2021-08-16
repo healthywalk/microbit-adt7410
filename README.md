@@ -8,7 +8,7 @@
 ``current temperature`` はI2C接続されたADT7410を使った現在温度を得ます。
 I2Cアドレスはデフォルトの72になります。
 
-```block
+```blocks
 let temperature = 0
 basic.forever(function () {
     temperature = ADT7410.measureTemperature()
@@ -22,7 +22,7 @@ basic.forever(function () {
 ``current temperature I2C=`` はI2C接続されたADT7410を使った現在温度を得ます。
 I2Cアドレスを渡す必要があります。
 
-```block
+```blocks
 let temperature = 0
 basic.forever(function () {
     temperature = ADT7410.measureTemperatureI2C(72)
