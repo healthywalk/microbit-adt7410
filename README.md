@@ -1,6 +1,17 @@
 
 > このページを開く [https://healthywalk.github.io/microbit-adt7410/](https://healthywalk.github.io/microbit-adt7410/)
 
+## 使用方法
+
+### ``current temperature``
+
+``current temperature`` はI2C接続されたADT7410を使った現在温度を得ます。
+
+```blocks
+basic.showNumber(ADT7410.measureTemperature())
+basic.pause(500)
+```
+
 ## 拡張機能として使用
 
 このリポジトリは、MakeCode で **拡張機能** として追加できます。
@@ -17,13 +28,6 @@ MakeCode でこのリポジトリを編集します。
 * [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
 * **読み込む** をクリックし、 **URLから読み込む...** をクリックしてください
 * **https://github.com/healthywalk/microbit-adt7410** を貼り付けてインポートをクリックしてください
-
-## ブロックのプレビュー
-
-この画像はマスター内の最後のコミットからのブロックコードを示しています。
-このイメージは更新に数分かかる場合があります。
-
-![生成されたブロック](https://github.com/healthywalk/microbit-adt7410/raw/master/.github/makecode/blocks.png)
 
 #### メタデータ (検索、レンダリングに使用)
 
