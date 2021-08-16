@@ -15,7 +15,7 @@ basic.pause(500)
 
 ### ``current temperature I2C=``
 
-``current temperature`` はI2C接続されたADT7410を使った現在温度を得ます。
+``current temperature I2C=`` はI2C接続されたADT7410を使った現在温度を得ます。
 I2Cアドレスを渡す必要があります。
 
 ```blocks
