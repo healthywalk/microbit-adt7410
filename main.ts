@@ -21,6 +21,9 @@ namespace ADT7410 {
         temperature = rawdata / 16
         return temperature
     }
+    /**
+     * measure Temperature with ADT7410
+     */
     //% blockId=TemperaturewithADT7410
     //% block="current temperature"
     export function measureTemperature(): number {
