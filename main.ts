@@ -9,7 +9,7 @@ namespace ADT7410 {
      */
     //% blockId=TemperaturewithADT7410I2C
     //% block="current temperature I2C=$i2caddress"
-    
+    //% i2caddress.min=72 i2caddress.max=75
     export function measureTemperatureI2C(i2caddress: number): number {
         let rawdata = 0
         let temperature = 0
