@@ -7,7 +7,7 @@
 
 ``current temperature`` はI2C接続されたADT7410を使った現在温度を得ます。
 I2Cアドレスはデフォルトの72になります。
-
+<!--
 ```blocks
 let temperature = 0
 basic.forever(function () {
@@ -16,12 +16,12 @@ basic.forever(function () {
     basic.pause(500)
 })
 ```
-
+-->
 ### ``current temperature I2C=``
 
 ``current temperature I2C=`` はI2C接続されたADT7410を使った現在温度を得ます。
 I2Cアドレスを渡す必要があります。
-
+<!--
 ```blocks
 let temperature = 0
 basic.forever(function () {
@@ -30,7 +30,7 @@ basic.forever(function () {
     basic.pause(500)
 })
 ```
-
+-->
 ## 拡張機能として使用
 
 このリポジトリは、MakeCode で **拡張機能** として追加できます。
