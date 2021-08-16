@@ -9,8 +9,11 @@
 I2Cアドレスはデフォルトの72になります。
 
 ```blocks
-temperature = ADT7410.measureTemperature()
-basic.showNumber(temperature)
+basic.forever(function () {
+    temperature = ADT7410.measureTemperature()
+    basic.showNumber(temperature)
+    basic.pause(500)
+}
 ```
 
 ### ``current temperature I2C=``
@@ -19,8 +22,11 @@ basic.showNumber(temperature)
 I2Cアドレスを渡す必要があります。
 
 ```blocks
-temperature = ADT7410.measureTemperatureI2C(72)
-basic.showNumber(temperature)
+basic.forever(function () {
+    temperature = ADT7410.measureTemperatureI2C(72)
+    basic.showNumber(temperature)
+    basic.pause(500)
+}
 ```
 
 ## 拡張機能として使用
