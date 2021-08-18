@@ -20,7 +20,7 @@ ADT7410.measureTemperatureI2C()
 ```
 
 ---
-## Example
+## Examples
 
 * default I2C address
 ```blocks
