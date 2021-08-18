@@ -38,14 +38,6 @@ basic.forever(function () {
 * ギアボタンメニューの中にある **拡張機能** をクリックしてください
 * **https://github.com/healthywalk/microbit-adt7410** を検索してインポートします。
 
-## このプロジェクトを編集します ![ビルド ステータス バッジ](https://github.com/healthywalk/microbit-adt7410/workflows/MakeCode/badge.svg)
-
-MakeCode でこのリポジトリを編集します。
-
-* [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
-* **読み込む** をクリックし、 **URLから読み込む...** をクリックしてください
-* **https://github.com/healthywalk/microbit-adt7410** を貼り付けてインポートをクリックしてください
-
 #### メタデータ (検索、レンダリングに使用)
 
 * for PXT/microbit
