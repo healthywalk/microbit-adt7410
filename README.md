@@ -1,13 +1,28 @@
+## microbit-ADT7410
 
-> このページを開く [https://healthywalk.github.io/microbit-adt7410/](https://healthywalk.github.io/microbit-adt7410/)
+> Open this page at [https://healthywalk.github.io/microbit-adt7410/](https://healthywalk.github.io/microbit-adt7410/)
 
-## 使用方法
+---
+This extension supports the ADT7410 Temperature Sensor in Microbit MakeCode programming.
+* I2C address: 0x48..0x4b
 
-### ``current temperature``
+---
+## Methods
 
-``current temperature`` はI2C接続されたADT7410を使った現在温度を得ます。
-I2Cアドレスはデフォルトの72になります。
+* Get temperature in degrees Celsius with default I2C address
+```
+ADT7410.measureTemperature()
+```
 
+* Get temperature in degrees Celsius by specifying an I2C address
+```
+ADT7410.measureTemperatureI2C()
+```
+
+---
+## Example
+
+* default I2C address
 ```blocks
 basic.forever(function () {
     temperature = ADT7410.measureTemperature()
@@ -15,12 +30,15 @@ basic.forever(function () {
     basic.pause(500)
 })
 ```
+```
+basic.forever(function () {
+    temperature = ADT7410.measureTemperature()
+    basic.showNumber(temperature)
+    basic.pause(500)
+})
+```
 
-### ``current temperature I2C=``
-
-``current temperature I2C=`` はI2C接続されたADT7410を使った現在温度を得ます。
-I2Cアドレスを渡す必要があります。
-
+* specifying an I2C address
 ```blocks
 basic.forever(function () {
     temperature = ADT7410.measureTemperatureI2C(72)
@@ -28,17 +46,26 @@ basic.forever(function () {
     basic.pause(500)
 })
 ```
+```
+basic.forever(function () {
+    temperature = ADT7410.measureTemperatureI2C(72)
+    basic.showNumber(temperature)
+    basic.pause(500)
+})
+```
 
-## 拡張機能として使用
+---
+## Use as Extension
 
-このリポジトリは、MakeCode で **拡張機能** として追加できます。
+This repository can be added as an **extension** in MakeCode.
 
-* [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
-* **新しいプロジェクト** をクリックしてください
-* ギアボタンメニューの中にある **拡張機能** をクリックしてください
-* **https://github.com/healthywalk/microbit-adt7410** を検索してインポートします。
+* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* click on **New Project**
+* click on **Extensions** under the gearwheel menu
+* search for **https://github.com/healthywalk/microbit-adt7410**  and import
 
-#### メタデータ (検索、レンダリングに使用)
+---
+## Metadata (used for search, rendering)
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
