@@ -1,6 +1,5 @@
 /**
- * ADT7410 block
- * 
+ * The ADT7410 block provides current temterature
  */
 //% weight=90 color=#1eb0f0 icon="\uf2c8"
 namespace ADT7410 {
