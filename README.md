@@ -13,7 +13,7 @@ This extension supports the ADT7410 I2C Temperature Sensor in Microbit MakeCode 
 ```
 ADT7410.measureTemperature()
 ```
-<br>
+  
 * Get temperature in degrees Celsius by specifying an I2C address
 ```
 ADT7410.measureTemperatureI2C()
@@ -37,7 +37,7 @@ basic.forever(function () {
     basic.pause(500)
 })
 ```
-<br>
+  
 * specifying an I2C address
 ```blocks
 basic.forever(function () {
