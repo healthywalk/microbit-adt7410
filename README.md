@@ -3,7 +3,7 @@
 > Open this page at [https://healthywalk.github.io/microbit-adt7410/](https://healthywalk.github.io/microbit-adt7410/)
 
 ---
-This extension supports the ADT7410 Temperature Sensor in Microbit MakeCode programming.
+This extension supports the ADT7410 I2C Temperature Sensor in Microbit MakeCode programming.
 * I2C address: 0x48..0x4b
 
 ---
