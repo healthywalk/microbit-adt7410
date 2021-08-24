@@ -1,6 +1,7 @@
 {
     "name": "microbit-ADT7410",
-    "description": "",
+    "version": "1.0.0",
+    "description": "ADT7410 (I2C Temperature Sensor) in Microbit MakeCode",
     "dependencies": {
         "core": "*"
     },
