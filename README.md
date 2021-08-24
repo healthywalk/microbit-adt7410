@@ -37,7 +37,7 @@ basic.forever(function () {
     basic.pause(500)
 })
 ```
-
+<br>
 * specifying an I2C address
 ```blocks
 basic.forever(function () {
